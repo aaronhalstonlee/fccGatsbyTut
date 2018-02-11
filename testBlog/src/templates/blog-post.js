@@ -1,5 +1,6 @@
-import React from "react"
-import Helmet from "react-helmet"
+import React from "react";
+import Helmet from "react-helmet";
+import Link from "gatsby-link";
 
 export default function Template({
     data
@@ -14,6 +15,18 @@ export default function Template({
                         className="blog-post-content"
                         dangerouslySetInnerHTML={{__html: post.html }}
                     />
+                </div>
+                <div>
+                    <Link to="/"
+                        style={{
+                            fontSize: '20px',
+                            fontWeight: 'bold',
+                            color: 'black',
+                            textDecoration: 'none',
+                        }}
+                        >
+                            back
+                    </Link>
                 </div>
         </div>
     );

@@ -12,7 +12,7 @@ import '../styles/layout-overide.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="ahl - welcome"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
@@ -62,12 +62,12 @@ const TemplateWrapper = ({ children }) => (
               </div>
 <div style={{ flex: 1 }}>
                 <Sidebar
-                  title="Codestack"
-                  description="Articles on React and Node.js. All articles are written by Me. Fullstack Web Development."
+                  title="aaronhalstonlee"
+                  description="hi, i'm aaron. i am an automotive technician learning to program. this is my blog about it."
                 />
                 <Sidebar
-                  title="About author"
-                  description="I am a Full-stack Web Developer specializing in React and Node.js based in Nigeria."
+                  title="find me"
+                  description="twitter, github, codepen"
                 />
               </div>
             </div>
