@@ -6,6 +6,7 @@ import Media from 'react-media'
 
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
+import SidebarLinks from '../components/SidebarLinks'
 import './index.css'
 import '../styles/layout-overide.css';
 
@@ -62,12 +63,14 @@ const TemplateWrapper = ({ children }) => (
               </div>
 <div style={{ flex: 1 }}>
                 <Sidebar
-                  title="aaronhalstonlee"
-                  description="hi, i'm aaron. i am an automotive technician learning to program. this is my blog about it."
+                  title="me"
+                  twitter="hi, i'm aaron. i'm an automotive technician learning to program. this is my blog about it."
                 />
-                <Sidebar
+                <SidebarLinks
                   title="find me"
-                  description="twitter, github, codepen"
+                  twitter="twitter"
+                  github="github"
+                  codepen="codepen"
                 />
               </div>
             </div>

@@ -8,13 +8,19 @@
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-catch-links": "^1.0.15",
     "gatsby-plugin-react-helmet": "^2.0.4",
+    "gatsby-plugin-typography": "^1.7.13",
     "gatsby-source-filesystem": "^1.5.18",
     "gatsby-transformer-remark": "^1.7.31",
     "react-helmet": "^5.2.0",
-    "react-media": "^1.8.0"
+    "react-media": "^1.8.0",
+    "typography-theme-github": "^0.15.10"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "blog",
+    "programming",
+    "web dev",
+    "developer"
   ],
   "license": "MIT",
   "main": "n/a",

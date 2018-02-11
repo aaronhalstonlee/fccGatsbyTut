@@ -10,7 +10,14 @@ const Sidebar = (props) => (
             marginBottom: '25px'
         }}
         >
-        <strong>{props.title}.</strong><br /> {props.description}
+        <strong>
+            <Link to="/about-me"
+                style={{
+                    color: "black",
+                    textDecoration: "none",
+                }}
+            >{props.title}.</Link>
+        </strong><br />{props.twitter}
     </div>
 );
 

@@ -28,7 +28,7 @@ export default function Index({ data }) {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC }) {
+    allMarkdownRemark(sort:{fields:[frontmatter___date],order:DESC},filter:{frontmatter:{path:{ne:"/about-me"}}}) {
       edges {
         node {
           excerpt(pruneLength: 250)
